@@ -1,0 +1,81 @@
+.top-rectangle {
+    width: 100%;                 
+    border-radius: 20px;
+    height: 20px;
+    background-color: forestgreen;
+    margin: 10px auto;
+}
+header {
+    font-size:500%;
+    text-align:center;
+    font-family: verdana;
+    font-weight: bold;
+    color: blue;
+    margin-top: 2em;
+
+}
+section {
+    font-size:110%;
+    text-align:center;
+    font-family: verdana;
+    font-variant: small-caps;
+    color: black;
+    margin: 1.5em 0;
+}
+.pottery-img {
+    height: 300px;
+    width: 20%;
+}
+.film-img {
+    height: 290px;
+    width: 35%;
+}
+p {
+    font-size:150%;
+    text-align:left;
+    font-family: verdana;
+    font-weight: bold;
+    color: blue;
+    border-left: 15px solid orange;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+}
+th, td {
+    text-align: left;
+    text-align:center;
+    padding: 8px;
+    font-size:110%;   
+    font-family: verdana;
+    font-variant: small-caps;
+    border-radius: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #c4ecc3;
+}
+dd {
+    font-size:110%;   
+    font-family: verdana;
+    font-variant: small-caps;
+    color: black;
+    margin: 1em;
+    margin-left: 25em;
+    margin-right: 1.5em;
+}
+footer {
+    font-size:110%;
+    text-align:center;
+    font-family: verdana;
+    color: black;
+    margin-top: 6em;
+    margin-bottom: 0em;
+}
+a {
+    font-size: 110%;   
+    font-family: verdana;
+    text-align: center;
+    margin-top: 0em;
+    display: block;  /* Makes the link a block element for centering */
+}
