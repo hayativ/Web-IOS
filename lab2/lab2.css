@@ -1,0 +1,186 @@
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.top-rectangle {
+    width: 100%;                 
+    border-radius: 20px;
+    height: 20px;
+    background-color: forestgreen;
+    margin: 10px auto;
+}
+
+header {
+    font-size: 500%;
+    text-align: center;
+    font-family: verdana;
+    font-weight: bold;
+    color: blue;
+    margin-top: 2em;
+    animation: colorChange 6s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% { color: blue; }
+    50% { color: purple; }
+    100% { color: grforestgreen; }
+}
+
+section {
+    font-size: 110%;
+    text-align: center;
+    font-family: verdana;
+    font-variant: small-caps;
+    color: black;
+    margin: 1.5em 0;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column; 
+    align-items: left;
+}
+
+.hobbies-images {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: left; 
+}
+.pottery-img {
+    height: 300px;
+    width: 30%; 
+    transition: transform 0.3s ease-in-out, filter 0.3s ease;
+}
+.film-img {
+    height: 290px;
+    width: 48%;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease;
+}
+
+.pottery-img:hover, .film-img:hover {
+    transform: scale(1.1); 
+    filter: brightness(90%);
+}
+
+dd {
+    font-size:110%;   
+    font-family: verdana;
+    font-variant: small-caps;
+    color: black;
+    margin: 1em;
+    margin-left: 25em;
+    margin-right: 1.5em;
+}
+
+th, td {
+    text-align: center; 
+    padding: 8px;
+    font-size: 110%;
+    font-family: verdana;
+    font-variant: small-caps;
+    border-radius: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #c4ecc3;
+}
+p {
+    font-size: 150%;
+    text-align: left;
+    font-family: verdana;
+    font-weight: bold;
+    color: blue;
+    border-left: 15px solid orange;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 1.5em 0; 
+}
+
+footer {
+    font-size: 110%;
+    text-align: center;
+    font-family: verdana;
+    color: black;
+}
+.footer-section {
+    font-size: 130%;
+    text-align: center;
+    font-family: verdana;
+    color: blue;
+    font-weight: bold;
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+.button-container {
+    text-align: center; 
+    margin: 1em 0; 
+}
+
+.instagram-link {
+    display: inline-block; 
+    font-size: 110%;
+    text-align: center;
+    font-family: verdana;
+    padding: 10px 20px; 
+    text-align: center; 
+    background-color: blue; 
+    color: white; 
+    border-radius: 20px; 
+    transition: background-color 0.3s ease; 
+    width: auto;
+}
+
+.instagram-link:hover {
+    background-color: rgb(18, 18, 58); 
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header {
+        font-size: 200%;
+    }
+    section, p {
+        font-size: 90%; 
+    }
+    .hobby-img {
+        width: 80%; 
+        margin: 0.5em;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    header {
+        font-size: 400%;
+    }
+    section, p {
+        font-size: 100%; 
+    }
+}
+
+@media (min-width: 993px) {
+    header {
+        font-size: 500%;
+    }
+    .hobby-img {
+        width: 30%; 
+    }
+}
+
+/* Flexbox for layout adjustments */
+.facts {
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+}
+
+table {
+    width: 100%; 
+    margin: 1em 0; 
+}
+
+td {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+}
