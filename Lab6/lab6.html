@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab6.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="player">
+        <div class="row">
+            <div class="col">
+                <img id="cover" src="cover1.jpg" alt="Track Cover" class="cover">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 id="track-title">Track Title</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col button">
+                <button id="play-pause-btn">PLAY</button>
+            </div>
+            <div class="col button">
+                <button id="next-btn">NEXT</button>
+            </div>
+        </div>
+        <ul id="list" class="list-group mt-4">
+            <li class="item d-flex align-items-left" data-index="1">
+                <img src= "Image/1.jpg" alt="Track 1" class="img">
+                <div class="ml-3 d-flex flex-column">
+                    <span class="font-weight-bold">1</span>
+                </div>
+            </li>
+            <li class="item d-flex align-items-left" data-index="2">
+                <img src="Image/2.jpg" alt="Track2" class="img">
+                <div class="ml-3 d-flex flex-column">
+                    <span class="font-weight-bold">2</span>
+                </div>
+            </li>
+            <li class="item d-flex align-items-left" data-index="3">
+                <img src="Image/4.jpg" alt="Track3" class="img">
+                <div class="ml-3 d-flex flex-column">
+                    <span class="font-weight-bold">3</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="lab6.js"></script>
+</body>
+
+</html>
